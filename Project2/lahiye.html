@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO do List</title>
+    <link rel="stylesheet" href="lahiye.css">
+    <link rel="icon" href="list-text.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="yellowbar"><b><i>#Yagubzadeh</i></b></div>
+        <div class="commondiv">
+            <p class="firsttext">To-Do List</p>
+            <img src="Group 38.svg" class="imgblck" onclick="sortListDir()">
+            <input type="text" class="inptblck" id="MyInput" placeholder="List daxil edin." required>
+            <div class="ulcontainer">
+                <div class="newUl" id="azer">
+                    <ul id="ul123"></ul>
+                </div>
+                <div class="button">
+                    <button id="button" onclick="addtoDo()">
+                        <span class="add">+</span>
+                        ADD
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="lahiye.js"></script>
+
+</html>

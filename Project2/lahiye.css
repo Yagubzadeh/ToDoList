@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+  
+body{  
+    margin: 0px;  
+    padding: 0px;  
+    box-sizing: border-box;  
+}  
+  
+.container {  
+    margin-left: 36%;  
+    margin-top: 12%;  
+    width: 28%;  
+    height: fit-content;
+    border: 1px solid gray;  
+    border-radius: 10px;  
+}  
+
+.yellowbar {  
+    height: 30px;
+
+    background-color: #FFDC40;  
+    border-radius: 10px 10px 0px 0px;  
+}  
+  
+.firsttext {  
+    font-family: 'Roboto', sans-serif;  
+    font-size: 210%;  
+    line-height: 31px;  
+    text-align: center;  
+    margin-top: 6%;  
+    margin-right: 17%;  
+}  
+  
+.imgblck, .inptblck {  
+    display: block;  
+    margin-bottom: 6%;  
+}  
+  
+.inptblck {  
+    width: 82%;  
+    height: 13%;  
+    border-radius: 10px;  
+    padding: 3%;  
+}  
+  
+.commondiv {  
+    margin-left: 16%;  
+}  
+  
+.imgblck {  
+    margin-left: 72%;  
+}  
+  
+#button{   
+    font-family: 'Roboto';   
+    font-size: 95%;   
+    font-family: 'Roboto', sans-serif;    
+    line-height: 16px;   
+    display: flex;   
+    align-items: center;   
+    background-color: #833AE0;   
+    width: 75%;   
+    height: 40px;   
+    justify-content: center;  
+    border-radius: 20px;   
+    color: white;  
+    border: none; 
+}   
+  
+.add{   
+    font-family: 'Roboto';   
+    font-style: normal;   
+    font-size: 20px;   
+    line-height: 16px;  
+    position: absolute;  
+    left: 43.5%;   
+    display: flex;   
+    align-items: center;   
+    background-color:  #9953F1;   
+    width: 40px;   
+    height: 40px;   
+    border-radius: 20px;   
+    justify-content: center;  
+}  
+  
+.addtext {  
+    text-align: center;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}  
+  
+.button {  
+    display: flex;  
+    justify-content: center;  
+    padding-bottom: 10%;
+    margin-top: 7%;
+    margin-left: 6%;  
+}  
+  
+.newul {  
+    text-decoration: none;  
+    padding-right: 6%;
+    justify-content: space-between;  
+    margin-bottom: 2%;  
+    display: none;  
+    border: 2px solid gray;  
+    width: 92.5%;  
+    height: fit-content;  
+    border-radius: 10px;  
+}  
+  
+.liler {  
+    padding-bottom: 3%;
+    display: flex; 
+    justify-content: space-between;
+    font-family: 'Josefin Sans', sans-serif;
+} 
+ 
+.duyme{ 
+    background-image: url(./Group\ 56.svg); 
+    width: 22px; 
+    height: 22px; 
+    border-radius: 50%; 
+    background-repeat: no-repeat; 
+    margin-left: 4%;
+}  
+ 
+ .duyme:hover { 
+    background-color: #833AE0; 
+}
+
+.ulcontainer {
+    width: 82%;
+}
+
+#ul123 {
+    width: 105%;
+    margin-left: -6%;
+    box-sizing: border-box;
+    word-break: break-all;
+}
