@@ -141,3 +141,15 @@ body{
     box-sizing: border-box;
     word-break: break-all;
 }
+
+@media (min-width:320px) and (max-width:802px) {
+    .container {
+        margin-left: 10%;
+        margin-top: 35%;
+        width: 80%;
+    }
+    .add {
+        position: absolute;
+        left: 30%;
+    }
+}
